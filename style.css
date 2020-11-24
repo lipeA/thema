@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+.center{
+    /* centralizar o menu e logo */
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.clear{
+    clear: both;
+}
+.topo{
+    background: linear-gradient(114deg, #250e8a, #00f9f7);
+    padding-top:40px;
+    padding-bottom: 80px;
+}
+.logo{
+    /* logo a esquerda */
+    float: left;
+}
+.menu-desktop{
+    /* menu a direita */
+    float: right;   
+}
+.menu-desktop li{
+    /* estilisando as opções do menu */
+    display: inline-block;
+    margin: 0 15px;
+}
+.menu-desktop a{
+    /* estilisando os link do menu */
+    color: white;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.menu-desktop a:hover{
+    opacity: 1.0;
+}
