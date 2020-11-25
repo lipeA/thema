@@ -1,8 +1,10 @@
 *{
+    /* zerar toda a config padrao. */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: roboto;
+    
 }
 .center{
     /* centralizar o menu e logo */
@@ -35,9 +37,13 @@
     /* estilisando os link do menu */
     color: white;
     text-decoration: none;
-    opacity: 0.6;
+    opacity:0.6;
 }
 
 .menu-desktop a:hover{
     opacity: 1.0;
+}
+
+.conteudo-topo{
+    color: tomato;
 }
