@@ -15,6 +15,9 @@
 .clear{
     clear: both;
 }
+.conteudo-topo{
+    color: tomato;
+}
 .topo{
     background: linear-gradient(114deg, #250e8a, #00f9f7);
     padding-top:40px;
@@ -44,6 +47,7 @@
     opacity: 1.0;
 }
 
+
 .conteudo-topo{
-    color: tomato;
+    color: white;
 }
