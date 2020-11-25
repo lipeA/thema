@@ -23,8 +23,15 @@
                    <div class="clear"></div>
                 <!-- conteudo no cabeçalho -->
                    <div class="conteudo-topo">
-                       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dolor delectus fugit asperiores nesciunt maiores harum vero perferendis quasi facilis officia, labore eligendi nisi, corporis recusandae ea reiciendis consequatur omnis.</p>
-                   </div>    
+                       <h2>Melhore a comunicação com o seu cliente e time</h2>
+                       <p>Consultoria especializada em startup, empresas, principalmente, pessoas.</p>
+                       <a href="https://google.com">Ver demonstração</a>
+                   </div>
+                <!-- imagem do cabeçalho -->
+                    <div class="imagem-topo"> 
+                        <img src="img/ilustracao.png" >
+                     </div>
+                <div class="clear"></div>
         </div>
     </section>
 </body>

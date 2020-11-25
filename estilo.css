@@ -42,12 +42,42 @@
     text-decoration: none;
     opacity:0.6;
 }
-
 .menu-desktop a:hover{
     opacity: 1.0;
 }
-
-
 .conteudo-topo{
     color: white;
+    margin-top: 45px;
+    margin-left: 35px;
+}
+.imagem-topo{
+   display: inline-block;
+   float: right; 
+}
+
+.conteudo-topo p{
+/* quebra de linha no paragrafo. */
+margin-top: 15px;
+margin-bottom: 18px;
+max-width: 290px;
+font-size: 20px;
+}
+.conteudo-topo a{
+    color: blue;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: gold;
+    font-size: 28px;
+    padding: 3px 9px;
+    border-radius: 8px;
+}
+.conteudo-topo h2{
+    font-size: 34px;
+}
+.imagem-topo img{
+    max-width: 100%;
+}
+/* aplicando o responsivel */
+@media screen and (max-width: 768px){
+    .conteudo-topo{width: 100%;}
 }
