@@ -1,0 +1,177 @@
+*{
+    /* zerar toda a config padrao. */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+    
+}
+.center{
+    /* centralizar o menu e logo */
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.clear{
+    clear: both; /* Não permiti elementos flutuantes à esquerda ou à direita de um outro elemento */
+}
+
+.topo{
+    background: linear-gradient(114deg, #250e8a, #00f9f7);
+    padding-top:40px;
+   
+}
+.logo{
+    /* logo a esquerda */
+    float: left;
+}
+.menu-desktop{
+    /* menu a direita */
+    float: right;   
+}
+.menu-desktop li{
+    /* estilisando as opções do menu */
+    display: inline;
+    margin: 0 15px;
+}
+.menu-desktop a{
+    /* estilisando os link do menu */
+    color: white;
+    text-decoration: none;
+    opacity:0.6;
+}
+.menu-desktop a:hover{
+    opacity: 1.0;
+}
+.conteudo-topo{
+    color: white;
+    margin-top: 15px;
+
+}
+.imagem-topo{
+   display: flex;
+   float: right; 
+}
+
+.conteudo-topo p{
+/* quebra de linha no paragrafo. */
+margin-top: 15px;
+margin-bottom: 18px;
+max-width: 3260px;
+font-size:19px;
+}
+.conteudo-topo a{
+    color: blue;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: gold;
+    font-size: 23px;
+    padding: 3px 9px;
+    border-radius: 8px;
+}
+.conteudo-topo h2{
+    font-size: 34px;
+}
+.imagem-topo img{
+    max-width: 80%;
+    padding-bottom: 35px;
+
+}
+/* aplicando o responsivel */
+@media screen and (max-width: 768px){
+    .conteudo-topo{width: 100%;}
+}
+/****SLICK SLIDER****/
+
+.slick-dotted ul{
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	margin-top:10px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #d8d8d8;
+	border-width: 0;
+	background: #d8d8d8;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #0c3f8a;
+	color: #0c3f8a;
+}
+
+.slick-slide:focus { outline: none; }
+
+/**END SLICK**/
+
+
+.circle{
+    /* centralizar o icone inicio */
+    position: absolute;
+    left: 50%;
+    margin-top: -25px;
+    transform: translateX(-50%) ;
+    text-align: center;
+     /* centralizar o icone fim */
+    line-height: 70px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0 10px 25px rgba(37, 15, 139, 0.4);
+    
+}
+
+.conterner-slider img{
+    padding: 15px;
+}
+
+/* parte de esplicação dos diferenciais */
+
+.diferenciais h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #202020;
+    font-weight: normal; /*Tipo da fonte*/
+}
+
+.img-diferenciais{
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;/* caso queira acresentar mais icones automaticamente ele vai para a linha a baixo */
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 16px;
+    
+}
+div.img-diferenciais p{
+    max-width: 280px;
+    padding: 15px 0px;
+    margin: 0px 20px;
+    text-align: center;
+}
+div.img-diferenciais h3{
+    text-align: center;
+
+}
+div.img01{
+    text-align: center;
+}
+
+
