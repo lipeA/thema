@@ -25,6 +25,42 @@
     /* logo a esquerda */
     float: left;
 }
+/* config do menu responsivel INICIO */
+.menu-mobile{
+    display: none;
+}
+.menu-mobile{
+    float: right;
+}
+.menu-mobile i{
+    font-size: 33px;
+    color: white;
+    cursor: pointer;
+}
+.menu-mobile ul{
+    display: none;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    position: absolute;
+    list-style-type: none;
+}
+.menu-mobile li{
+    padding: 8px 0px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #00f9f7;
+
+}
+.menu-mobile a{
+    display: block;
+    text-decoration: none;
+    color: #202020;
+}
+/* config do menu responsivel FINAL */
+
 .menu-desktop{
     /* menu a direita */
     float: right;   
@@ -77,10 +113,7 @@ font-size:19px;
     padding-bottom: 35px;
 
 }
-/* aplicando o responsivel */
-@media screen and (max-width: 768px){
-    .conteudo-topo{width: 100%;}
-}
+
 /****SLICK SLIDER****/
 
 .slick-dotted ul{
@@ -173,5 +206,37 @@ div.img-diferenciais h3{
 div.img01{
     text-align: center;
 }
+.descricao-time{
+    background: #f4f9fd;
+    padding: 40px 0px;
+}
+.descricao-time p{
+    float: left;
+    margin-top: 35px;
+    font-weight: normal;
+    color: #272727;
+    margin-right: 60%;
+}
+.descricao-time h2{
+    margin-top: 25px;
+    font-size: 20px;
+    color: #202020;
+    line-height: 35px;
+}
+.descricao-time img{
+   float: right;
+   margin-top: -140px;
+    max-width: 50%;
+    margin-bottom: 100px;
+}
 
 
+
+
+
+/* aplicando o responsivel */
+@media screen and (max-width: 768px){
+    .conteudo-topo{width: 100%;}
+    .menu-desktop{display: none;}
+    .menu-mobile{display: block;}
+}

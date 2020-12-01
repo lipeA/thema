@@ -15,12 +15,21 @@
          <!-- classe para centralizar o conteudo -->  
         <div class="center">  
                   <header class="logo"> <img src="img/logo.png" alt=""></header>
-                <!-- Botões do menu -->
+                <!-- menu  desktop-->
                    <ul class="menu-desktop">
                        <li> <a href="http://">Home</a></li>
                        <li> <a href="http://">Sobre</a></li>
                        <li> <a href="http://">Contato</a></li>
                    </ul>
+                <!-- menu mobile -->
+                   <div class="menu-mobile">  <!-- icone do menu responsivel -->
+                   <i class="fas fa-align-right"></i>
+                        <ul>
+                            <li> <a href="http://">Home</a></li>
+                             <li> <a href="http://">Sobre</a></li>
+                             <li> <a href="http://">Contato</a></li>
+                        </ul>
+                   </div>
                    <div class="clear"></div>
                 <!-- conteudo no cabeçalho -->
                    <div class="conteudo-topo">
@@ -76,6 +85,21 @@
         </div>
     </div>
 </section>
+<!-- seção de descrição do time. -->
+<section class="descricao-time">
+    <div class="center">
+        <div class="time">
+            <h2>Um time experinte, comunicador e coeso.</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Voluptates numquam in aut eius ipsam voluptatum fugit nihil autem <br> nesciunt asperiores itaque,
+                vel officia reprehenderit laboriosam alias ratione tenetur debitis quisquam?
+            </p>
+            <img src="img/ilustracao-04.png" alt="">
+        </div>
+       <div class="clear"></div>
+    </div>
+</section>
 
 
 <!-- script para a adicionar o icone  de fica na divisão do conteudo principal e o corpo da pagina  -->
@@ -83,6 +107,13 @@
 <!-- script e bibliptecas Slick's -->
 <script src="js/jquery.js"></script>
 <script src="js/slick.min.js"></script>
+<!-- ativando o menu responsivel -->
+<!-- pode ser feito aqui no index ou feito em arquivo deferente -->
+<script>
+    $('.menu-mobile i').click(function() {
+        $('.menu-mobile').find('ul').slideToggle();
+    })
+</script>
 <script type="text/javascript">
 	$('section.slides .conterner-slider').slick({
     dots: true,
