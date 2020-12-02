@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Adicionando fonts google -->
     <link href = "https://fonts.googleapis.com/css2? family = Roboto: wght @ 100 & display = swap" rel = "stylesheet">
@@ -106,19 +106,41 @@
 <section class="depoimentos">
     <div class="center">
          <h2>Depoimentos</h2>
-             <div class="box-depoimentos">
-                <div class="campo-depoimentos">
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sequi saepe ipsam cumque amet, omnis atque numquam, perspiciatis facere porro deleniti!
-                      Aperiam odit placeat sapiente eligendi, reprehenderit cum iste delectus?
+             <div class="box-depoimentos"> <!-- NESTA CLASSE VC REFERENCIA NO SLIDER..!!!!! -->
+                <div class="campo-depoimentos"> 
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Voluptatem alias quae amet beatae magni sunt vero libero eveniet, similique distinctio illo animi exercitationem impedit! Iure cupiditate natus sit eos omnis.
                     </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sunt totam reiciendis.
-                       Hic et odit minima sint modi laudantium voluptatem inventore id? Saepe ipsa cum facilis perspiciatis quia dolore possimus.
-                    </p>
+                    <p> Felipe Assis de Jesus </p>
+                    <img src="img/autor2.jpg" alt=""> 
                 </div>
-            </div> 
+                <div class="campo-depoimentos">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Voluptatem alias quae amet beatae magni sunt vero libero eveniet, similique distinctio illo animi exercitationem impedit! Iure cupiditate natus sit eos omnis.
+                    </p>
+                    <p> Felipe Assis de Jesus </p>
+                    <img src="img/autor2.jpg" alt="">
+                </div>
+            </div>  
     </div>
-
 </section>
+<footer>
+<!-- seção metodologia -->
+    <section class="metodologia">
+        <div class="center">
+            <h2>Conheça nossa metodologia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quos.</p>
+            <a href="http://">Entrar em Contato</a>
+        </div>
+    </section>
+
+<!-- Roda pé  -->
+    <section>
+        <div class="center">
+            
+        </div>
+    </section>
+</footer>
 
 <!-- script para a adicionar o icone  de fica na divisão do conteudo principal e o corpo da pagina  -->
 <script src="https://kit.fontawesome.com/f71bd11240.js" crossorigin="anonymous"></script>
@@ -132,6 +154,7 @@
         $('.menu-mobile').find('ul').slideToggle();
     })
 </script>
+<!-- slider parceiros -->
 <script type="text/javascript">
 	$('section.slides .conterner-slider').slick({
     dots: true,
@@ -143,6 +166,18 @@
     autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover:false
+});
+</script>
+
+<!-- slider dos depoimentos -->
+<script type="text/javascript">
+	$('section.depoimentos .box-depoimentos').slick({
+    dots: true,
+    arrows:false,
+    infinite: true,
+    speed:1000,
+    slidesToShow: 1,
+    autoplaySpeed: 3000,
 });
 </script>
 </body>
