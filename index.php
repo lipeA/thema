@@ -88,19 +88,37 @@
 <!-- seção de descrição do time. -->
 <section class="descricao-time">
     <div class="center">
-        <div class="time">
-            <h2>Um time experinte, comunicador e coeso.</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                Voluptates numquam in aut eius ipsam voluptatum fugit nihil autem <br> nesciunt asperiores itaque,
-                vel officia reprehenderit laboriosam alias ratione tenetur debitis quisquam?
-            </p>
+         
+           <div class="time">
+               <h2>Um time experinte, comunicador e coeso.</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Voluptates numquam in aut eius ipsam voluptatum fugit nihil autem <br> nesciunt asperiores itaque,
+                        vel officia reprehenderit laboriosam alias ratione tenetur debitis quisquam?
+                    </p>
             <img src="img/ilustracao-04.png" alt="">
         </div>
        <div class="clear"></div>
     </div>
 </section>
 
+<!--seção de Depoimentos  -->
+<section class="depoimentos">
+    <div class="center">
+         <h2>Depoimentos</h2>
+             <div class="box-depoimentos">
+                <div class="campo-depoimentos">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sequi saepe ipsam cumque amet, omnis atque numquam, perspiciatis facere porro deleniti!
+                      Aperiam odit placeat sapiente eligendi, reprehenderit cum iste delectus?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sunt totam reiciendis.
+                       Hic et odit minima sint modi laudantium voluptatem inventore id? Saepe ipsa cum facilis perspiciatis quia dolore possimus.
+                    </p>
+                </div>
+            </div> 
+    </div>
+
+</section>
 
 <!-- script para a adicionar o icone  de fica na divisão do conteudo principal e o corpo da pagina  -->
 <script src="https://kit.fontawesome.com/f71bd11240.js" crossorigin="anonymous"></script>

@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: roboto;
-    
+
 }
 .center{
     /* centralizar o menu e logo */
@@ -228,6 +228,14 @@ div.img01{
    margin-top: -140px;
     max-width: 50%;
     margin-bottom: 100px;
+}
+.depoimentos{
+    background:#23188f;
+    
+}
+
+.depoimentos{
+    background: #23188f;
 }
 
 
