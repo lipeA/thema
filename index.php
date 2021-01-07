@@ -7,14 +7,14 @@
     <!-- Adicionando fonts google -->
     <link href = "https://fonts.googleapis.com/css2? family = Roboto: wght @ 100 & display = swap" rel = "stylesheet">
     
-    <title>thema danki</title>
+    <title>thema</title>
 </head>
 <body>
     <!-- Area do cabeçalho (menu) -->
    <section class="topo"> 
          <!-- classe para centralizar o conteudo -->  
         <div class="center">  
-                  <header class="logo"> <img src="img/logo.png" alt=""></header>
+                  <header class="logo"> <img src="img/logo01.png" alt=""></header>
                 <!-- menu  desktop-->
                    <ul class="menu-desktop">
                        <li> <a href="http://">Home</a></li>
@@ -135,11 +135,26 @@
     </section>
 
 <!-- Roda pé  -->
-    <section>
         <div class="center">
-            
+            <div class="col-footer">
+                <h2>Suporte</h2>
+                <a href="">FAQ</a>
+                <a href="">contato</a>
+            </div>
+            <div class="col-footer">
+                <h2>Suporte</h2>
+                <a href="">FAQ</a>
+                <a href="">Contato</a>
+            </div>
+            <div class="col-footer">
+                <h2>Suporte</h2>
+                <a href="">FAQ</a>
+                <a href="">contato</a>
+            </div>
+            <div style="width:40%; text-align:right;" class="col-footer">   
+                <img src="img/logo-dummy.png" alt="">
+            </div>
         </div>
-    </section>
 </footer>
 
 <!-- script para a adicionar o icone  de fica na divisão do conteudo principal e o corpo da pagina  -->
